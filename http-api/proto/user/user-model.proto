@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package user;
+
+import "../common/pagination.proto";
+
+message User {
+  string nik = 1;
+  string email = 2;
+  string phone_number = 3;
+  string password = 4;
+  bool is_admin = 5;
+  bool is_active = 6;
+}
+
+message PublicUserData {
+  string nik = 1;
+  string email = 2;
+  string phone_number = 3;
+}
+
+message InsertOneUser {
+  PublicUserData user = 1;
+  string password = 2;
+}
+
+message FindOneUserRequest {
+  string nik = 1;
+}
+
+message FindUserRequest {
+  common.PaginationRequest pagination = 1;
+}
+
+message FindUserResponse {
+  repeated PublicUserData users = 1;
+  common.PaginationResponse pagination = 2;
+}

@@ -1,0 +1,160 @@
+2024-09-19 08:44:27.292 +07 [35844] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 08:44:27.296 +07 [35844] LOG:  listening on IPv6 address "::1", port 5433
+2024-09-19 08:44:27.297 +07 [35844] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2024-09-19 08:44:27.413 +07 [5684] LOG:  database system was shut down at 2024-09-19 08:43:33 +07
+2024-09-19 08:44:27.517 +07 [35844] LOG:  database system is ready to accept connections
+2024-09-19 08:46:51.137 +07 [35844] LOG:  received fast shutdown request
+2024-09-19 08:46:51.138 +07 [19568] ERROR:  canceling statement due to user request
+2024-09-19 08:46:51.169 +07 [35844] LOG:  aborting any active transactions
+2024-09-19 08:46:51.169 +07 [35844] LOG:  background worker "logical replication launcher" (PID 19568) exited with exit code 1
+2024-09-19 08:46:51.174 +07 [37616] LOG:  shutting down
+2024-09-19 08:46:51.175 +07 [37616] LOG:  checkpoint starting: shutdown immediate
+2024-09-19 08:46:51.184 +07 [37616] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.002 s, total=0.011 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/15B8ED0, redo lsn=0/15B8ED0
+2024-09-19 08:46:51.193 +07 [35844] LOG:  database system is shut down
+2024-09-19 08:46:57.892 +07 [38428] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 08:46:57.895 +07 [38428] LOG:  listening on IPv6 address "::1", port 5433
+2024-09-19 08:46:57.895 +07 [38428] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2024-09-19 08:46:58.016 +07 [12956] LOG:  database system was shut down at 2024-09-19 08:46:51 +07
+2024-09-19 08:46:58.122 +07 [38428] LOG:  database system is ready to accept connections
+2024-09-19 08:48:41.884 +07 [39580] LOG:  checkpoint starting: force wait
+2024-09-19 08:48:41.911 +07 [39580] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.002 s, total=0.027 s; sync files=2, longest=0.001 s, average=0.001 s; distance=10524 kB, estimate=10524 kB; lsn=0/2000098, redo lsn=0/2000060
+2024-09-19 08:53:41.912 +07 [39580] LOG:  checkpoint starting: time
+2024-09-19 08:53:41.917 +07 [39580] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.006 s; sync files=0, longest=0.000 s, average=0.000 s; distance=16384 kB, estimate=16384 kB; lsn=0/3000098, redo lsn=0/3000060
+2024-09-19 08:55:49.484 +07 [33852] ERROR:  syntax error at or near "cls" at character 1
+2024-09-19 08:55:49.484 +07 [33852] STATEMENT:  cls
+	;
+2024-09-19 09:00:09.686 +07 [33852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 09:04:32.381 +07 [38428] LOG:  received fast shutdown request
+2024-09-19 09:04:32.383 +07 [38428] LOG:  aborting any active transactions
+2024-09-19 09:04:32.383 +07 [14524] FATAL:  terminating connection due to administrator command
+2024-09-19 09:04:32.387 +07 [38428] LOG:  background worker "logical replication launcher" (PID 38348) exited with exit code 1
+2024-09-19 09:04:32.387 +07 [39580] LOG:  shutting down
+2024-09-19 09:04:32.388 +07 [39580] LOG:  checkpoint starting: shutdown immediate
+2024-09-19 09:04:32.393 +07 [39580] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.006 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=14745 kB; lsn=0/3000148, redo lsn=0/3000148
+2024-09-19 09:04:32.398 +07 [38428] LOG:  database system is shut down
+2024-09-19 09:04:47.933 +07 [22284] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 09:04:47.935 +07 [22284] LOG:  listening on IPv6 address "::1", port 5433
+2024-09-19 09:04:47.935 +07 [22284] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2024-09-19 09:04:48.011 +07 [19240] LOG:  database system was shut down at 2024-09-19 09:04:32 +07
+2024-09-19 09:04:48.078 +07 [22284] LOG:  database system is ready to accept connections
+2024-09-19 09:04:56.182 +07 [22284] LOG:  received SIGHUP, reloading configuration files
+2024-09-19 09:08:28.108 +07 [22284] LOG:  received SIGHUP, reloading configuration files
+2024-09-19 09:09:47.114 +07 [23172] LOG:  checkpoint starting: time
+2024-09-19 09:09:47.124 +07 [23172] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.002 s, total=0.010 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/3000230, redo lsn=0/30001F8
+2024-09-19 09:18:01.184 +07 [22284] LOG:  received SIGHUP, reloading configuration files
+2024-09-19 09:19:47.189 +07 [23172] LOG:  checkpoint starting: time
+2024-09-19 09:19:47.520 +07 [23172] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.321 s, sync=0.004 s, total=0.331 s; sync files=4, longest=0.002 s, average=0.001 s; distance=3 kB, estimate=3 kB; lsn=0/3001190, redo lsn=0/3001158
+2024-09-19 09:26:09.765 +07 [23172] LOG:  checkpoint starting: force wait
+2024-09-19 09:26:09.903 +07 [23172] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.114 s, sync=0.002 s, total=0.139 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16379 kB, estimate=16379 kB; lsn=0/4000060, redo lsn=0/4000028
+2024-09-19 09:29:37.556 +07 [22284] LOG:  received fast shutdown request
+2024-09-19 09:29:37.558 +07 [22284] LOG:  aborting any active transactions
+2024-09-19 09:29:37.558 +07 [21132] FATAL:  terminating connection due to administrator command
+2024-09-19 09:29:37.562 +07 [22284] LOG:  background worker "logical replication launcher" (PID 34944) exited with exit code 1
+2024-09-19 09:29:37.562 +07 [23172] LOG:  shutting down
+2024-09-19 09:29:37.563 +07 [23172] LOG:  checkpoint starting: shutdown immediate
+2024-09-19 09:29:37.568 +07 [23172] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.006 s; sync files=0, longest=0.000 s, average=0.000 s; distance=16384 kB, estimate=16384 kB; lsn=0/5000060, redo lsn=0/5000060
+2024-09-19 09:29:37.573 +07 [22284] LOG:  database system is shut down
+2024-09-19 09:29:51.550 +07 [6448] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 09:29:51.553 +07 [6448] LOG:  listening on IPv6 address "::1", port 5433
+2024-09-19 09:29:51.553 +07 [6448] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2024-09-19 09:29:51.737 +07 [35392] LOG:  database system was shut down at 2024-09-19 09:29:37 +07
+2024-09-19 09:29:51.806 +07 [6448] LOG:  database system is ready to accept connections
+2024-09-19 09:34:51.601 +07 [29880] LOG:  checkpoint starting: time
+2024-09-19 09:34:51.613 +07 [29880] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.002 s, total=0.013 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/5000148, redo lsn=0/5000110
+2024-09-19 09:36:39.395 +07 [28512] FATAL:  role "test_reeplication" does not exist
+2024-09-19 09:37:06.431 +07 [31232] ERROR:  relation "test_table" already exists
+2024-09-19 09:37:06.431 +07 [31232] STATEMENT:  CREATE TABLE test_table (id serial primary key, value text);
+2024-09-19 09:38:57.959 +07 [11300] ERROR:  column "Record 1" does not exist at character 40
+2024-09-19 09:38:57.959 +07 [11300] STATEMENT:  insert into test_table (value) VALUES ("Record 1");
+2024-09-19 09:39:51.624 +07 [29880] LOG:  checkpoint starting: time
+2024-09-19 09:43:12.371 +07 [26988] ERROR:  database "test_replication" is being accessed by other users
+2024-09-19 09:43:12.371 +07 [26988] DETAIL:  There is 1 other session using the database.
+2024-09-19 09:43:12.371 +07 [26988] STATEMENT:  DROP DATABASE IF EXISTS test_replication;
+	
+2024-09-19 09:43:16.370 +07 [29880] LOG:  checkpoint complete: wrote 1941 buffers (11.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=204.453 s, sync=0.288 s, total=204.747 s; sync files=349, longest=0.004 s, average=0.001 s; distance=9312 kB, estimate=9312 kB; lsn=0/5918A58, redo lsn=0/5918368
+2024-09-19 09:43:16.374 +07 [29880] LOG:  checkpoint starting: immediate force wait
+2024-09-19 09:43:16.381 +07 [29880] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.002 s, total=0.008 s; sync files=2, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=8381 kB; lsn=0/5918B08, redo lsn=0/5918AD0
+2024-09-19 09:48:16.385 +07 [29880] LOG:  checkpoint starting: time
+2024-09-19 09:50:03.916 +07 [29880] LOG:  checkpoint complete: wrote 976 buffers (6.0%); 1 WAL file(s) added, 0 removed, 0 recycled; write=107.261 s, sync=0.249 s, total=107.532 s; sync files=307, longest=0.002 s, average=0.001 s; distance=4576 kB, estimate=8001 kB; lsn=0/5D90F28, redo lsn=0/5D90D78
+2024-09-19 11:35:50.574 +07 [19068] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 11:35:50.574 +07 [19068] LOG:  unexpected EOF on client connection with an open transaction
+2024-09-19 11:35:52.151 +07 [21768] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 11:38:17.118 +07 [29880] LOG:  checkpoint starting: time
+2024-09-19 11:38:18.349 +07 [29880] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.142 s, sync=0.044 s, total=1.232 s; sync files=8, longest=0.031 s, average=0.006 s; distance=10 kB, estimate=7201 kB; lsn=0/5D938A8, redo lsn=0/5D93870
+2024-09-19 13:39:00.484 +07 [26988] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 13:39:00.487 +07 [5700] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 13:46:33.971 +07 [29848] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:06:41.161 +07 [18024] ERROR:  new encoding (UTF8) is incompatible with the encoding of the template database (WIN1252)
+2024-09-19 15:06:41.161 +07 [18024] HINT:  Use the same encoding as in the template database, or use template0 as template.
+2024-09-19 15:06:41.161 +07 [18024] STATEMENT:  CREATE DATABASE auth
+	    WITH
+	    OWNER = postgres
+	    ENCODING = 'UTF8'
+	    LOCALE_PROVIDER = 'libc'
+	    CONNECTION LIMIT = -1
+	    IS_TEMPLATE = False;
+	
+2024-09-19 15:07:31.044 +07 [11992] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:08:56.841 +07 [5776] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:09:43.909 +07 [29880] LOG:  checkpoint starting: time
+2024-09-19 15:11:28.828 +07 [29880] LOG:  checkpoint complete: wrote 966 buffers (5.9%); 0 WAL file(s) added, 0 removed, 0 recycled; write=104.671 s, sync=0.243 s, total=104.920 s; sync files=303, longest=0.002 s, average=0.001 s; distance=4552 kB, estimate=6937 kB; lsn=0/62058D0, redo lsn=0/6205898
+2024-09-19 15:16:09.305 +07 [18108] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:16:10.920 +07 [24984] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:34:57.635 +07 [20352] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:38:25.561 +07 [33444] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:44:14.118 +07 [34400] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:44:43.896 +07 [29880] LOG:  checkpoint starting: time
+2024-09-19 15:44:49.020 +07 [29880] LOG:  checkpoint complete: wrote 47 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.080 s, sync=0.033 s, total=5.124 s; sync files=38, longest=0.002 s, average=0.001 s; distance=163 kB, estimate=6259 kB; lsn=0/622E530, redo lsn=0/622E4F8
+2024-09-19 16:05:24.894 +07 [16180] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:05:32.470 +07 [25732] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:05:34.317 +07 [13036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:29:43.098 +07 [29880] LOG:  checkpoint starting: time
+2024-09-19 16:29:43.323 +07 [29880] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.216 s, sync=0.004 s, total=0.226 s; sync files=3, longest=0.002 s, average=0.002 s; distance=1 kB, estimate=5633 kB; lsn=0/622E980, redo lsn=0/622E948
+2024-09-19 16:30:44.908 +07 [31540] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:30:44.908 +07 [36756] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:30:44.909 +07 [35820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:30:44.913 +07 [5092] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:30:44.916 +07 [18024] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:57:20.096 +07 [14976] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:24:52.706 +07 [22012] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:49:43.428 +07 [29880] LOG:  checkpoint starting: time
+2024-09-19 17:49:43.570 +07 [29880] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.003 s, total=0.143 s; sync files=2, longest=0.002 s, average=0.002 s; distance=1 kB, estimate=5070 kB; lsn=0/622EDE8, redo lsn=0/622EDB0
+2024-09-19 17:54:43.580 +07 [29880] LOG:  checkpoint starting: time
+2024-09-19 17:54:43.863 +07 [29880] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.213 s, sync=0.033 s, total=0.283 s; sync files=3, longest=0.031 s, average=0.011 s; distance=1 kB, estimate=4563 kB; lsn=0/622F318, redo lsn=0/622F2E0
+2024-09-19 17:58:53.097 +07 [31792] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:58:53.099 +07 [16744] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:58:53.100 +07 [37916] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:58:53.100 +07 [15888] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:58:53.101 +07 [33328] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:58:53.101 +07 [17160] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:59:02.849 +07 [18044] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

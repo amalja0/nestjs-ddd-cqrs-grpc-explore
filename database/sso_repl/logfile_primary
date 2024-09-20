@@ -1,0 +1,49 @@
+2024-09-19 08:44:27.292 +07 [35844] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 08:44:27.296 +07 [35844] LOG:  listening on IPv6 address "::1", port 5433
+2024-09-19 08:44:27.297 +07 [35844] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2024-09-19 08:44:27.413 +07 [5684] LOG:  database system was shut down at 2024-09-19 08:43:33 +07
+2024-09-19 08:44:27.517 +07 [35844] LOG:  database system is ready to accept connections
+2024-09-19 08:46:51.137 +07 [35844] LOG:  received fast shutdown request
+2024-09-19 08:46:51.138 +07 [19568] ERROR:  canceling statement due to user request
+2024-09-19 08:46:51.169 +07 [35844] LOG:  aborting any active transactions
+2024-09-19 08:46:51.169 +07 [35844] LOG:  background worker "logical replication launcher" (PID 19568) exited with exit code 1
+2024-09-19 08:46:51.174 +07 [37616] LOG:  shutting down
+2024-09-19 08:46:51.175 +07 [37616] LOG:  checkpoint starting: shutdown immediate
+2024-09-19 08:46:51.184 +07 [37616] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.002 s, total=0.011 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/15B8ED0, redo lsn=0/15B8ED0
+2024-09-19 08:46:51.193 +07 [35844] LOG:  database system is shut down
+2024-09-19 08:46:57.892 +07 [38428] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 08:46:57.895 +07 [38428] LOG:  listening on IPv6 address "::1", port 5433
+2024-09-19 08:46:57.895 +07 [38428] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2024-09-19 08:46:58.016 +07 [12956] LOG:  database system was shut down at 2024-09-19 08:46:51 +07
+2024-09-19 08:46:58.122 +07 [38428] LOG:  database system is ready to accept connections
+2024-09-19 08:48:41.884 +07 [39580] LOG:  checkpoint starting: force wait
+2024-09-19 08:48:41.911 +07 [39580] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.002 s, total=0.027 s; sync files=2, longest=0.001 s, average=0.001 s; distance=10524 kB, estimate=10524 kB; lsn=0/2000098, redo lsn=0/2000060
+2024-09-19 08:53:41.912 +07 [39580] LOG:  checkpoint starting: time
+2024-09-19 08:53:41.917 +07 [39580] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.006 s; sync files=0, longest=0.000 s, average=0.000 s; distance=16384 kB, estimate=16384 kB; lsn=0/3000098, redo lsn=0/3000060
+2024-09-19 08:55:49.484 +07 [33852] ERROR:  syntax error at or near "cls" at character 1
+2024-09-19 08:55:49.484 +07 [33852] STATEMENT:  cls
+	;
+2024-09-19 09:00:09.686 +07 [33852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 09:04:32.381 +07 [38428] LOG:  received fast shutdown request
+2024-09-19 09:04:32.383 +07 [38428] LOG:  aborting any active transactions
+2024-09-19 09:04:32.383 +07 [14524] FATAL:  terminating connection due to administrator command
+2024-09-19 09:04:32.387 +07 [38428] LOG:  background worker "logical replication launcher" (PID 38348) exited with exit code 1
+2024-09-19 09:04:32.387 +07 [39580] LOG:  shutting down
+2024-09-19 09:04:32.388 +07 [39580] LOG:  checkpoint starting: shutdown immediate
+2024-09-19 09:04:32.393 +07 [39580] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.006 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=14745 kB; lsn=0/3000148, redo lsn=0/3000148
+2024-09-19 09:04:32.398 +07 [38428] LOG:  database system is shut down
+2024-09-19 09:04:47.933 +07 [22284] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 09:04:47.935 +07 [22284] LOG:  listening on IPv6 address "::1", port 5433
+2024-09-19 09:04:47.935 +07 [22284] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2024-09-19 09:04:48.011 +07 [19240] LOG:  database system was shut down at 2024-09-19 09:04:32 +07
+2024-09-19 09:04:48.078 +07 [22284] LOG:  database system is ready to accept connections
+2024-09-19 09:04:56.182 +07 [22284] LOG:  received SIGHUP, reloading configuration files
+2024-09-19 09:08:28.108 +07 [22284] LOG:  received SIGHUP, reloading configuration files
+2024-09-19 09:09:47.114 +07 [23172] LOG:  checkpoint starting: time
+2024-09-19 09:09:47.124 +07 [23172] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.002 s, total=0.010 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/3000230, redo lsn=0/30001F8
+2024-09-19 09:18:01.184 +07 [22284] LOG:  received SIGHUP, reloading configuration files
+2024-09-19 09:19:47.189 +07 [23172] LOG:  checkpoint starting: time
+2024-09-19 09:19:47.520 +07 [23172] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.321 s, sync=0.004 s, total=0.331 s; sync files=4, longest=0.002 s, average=0.001 s; distance=3 kB, estimate=3 kB; lsn=0/3001190, redo lsn=0/3001158
+2024-09-19 09:26:09.765 +07 [23172] LOG:  checkpoint starting: force wait
+2024-09-19 09:26:09.903 +07 [23172] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.114 s, sync=0.002 s, total=0.139 s; sync files=1, longest=0.002 s, average=0.002 s; distance=16379 kB, estimate=16379 kB; lsn=0/4000060, redo lsn=0/4000028

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package user;
+
+message User {
+  string nik = 1;
+  string email = 2;
+  string phone_number = 3;
+  string password = 4;
+  bool isAdmin = 5;
+  bool isActive = 6;
+}
+
+message PublicUserData {
+  string nik = 1;
+  string email = 2;
+  string phoneNumber = 3;
+}
+

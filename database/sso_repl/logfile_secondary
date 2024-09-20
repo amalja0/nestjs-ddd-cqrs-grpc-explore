@@ -1,0 +1,169 @@
+2024-09-19 09:28:35.489 +07 [19564] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 09:28:35.492 +07 [19564] LOG:  could not bind IPv6 address "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2024-09-19 09:28:35.492 +07 [19564] HINT:  Is another postmaster already running on port 5433? If not, wait a few seconds and retry.
+2024-09-19 09:28:35.492 +07 [19564] LOG:  could not bind IPv4 address "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2024-09-19 09:28:35.492 +07 [19564] HINT:  Is another postmaster already running on port 5433? If not, wait a few seconds and retry.
+2024-09-19 09:28:35.492 +07 [19564] WARNING:  could not create listen socket for "localhost"
+2024-09-19 09:28:35.492 +07 [19564] FATAL:  could not create any TCP/IP sockets
+2024-09-19 09:28:35.493 +07 [19564] LOG:  database system is shut down
+2024-09-19 09:29:11.046 +07 [22348] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 09:29:11.048 +07 [22348] LOG:  could not bind IPv6 address "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2024-09-19 09:29:11.048 +07 [22348] HINT:  Is another postmaster already running on port 5433? If not, wait a few seconds and retry.
+2024-09-19 09:29:11.048 +07 [22348] LOG:  could not bind IPv4 address "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2024-09-19 09:29:11.048 +07 [22348] HINT:  Is another postmaster already running on port 5433? If not, wait a few seconds and retry.
+2024-09-19 09:29:11.048 +07 [22348] WARNING:  could not create listen socket for "localhost"
+2024-09-19 09:29:11.048 +07 [22348] FATAL:  could not create any TCP/IP sockets
+2024-09-19 09:29:11.049 +07 [22348] LOG:  database system is shut down
+2024-09-19 09:30:01.169 +07 [26188] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 09:30:01.173 +07 [26188] LOG:  could not bind IPv6 address "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2024-09-19 09:30:01.173 +07 [26188] HINT:  Is another postmaster already running on port 5433? If not, wait a few seconds and retry.
+2024-09-19 09:30:01.173 +07 [26188] LOG:  could not bind IPv4 address "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2024-09-19 09:30:01.173 +07 [26188] HINT:  Is another postmaster already running on port 5433? If not, wait a few seconds and retry.
+2024-09-19 09:30:01.173 +07 [26188] WARNING:  could not create listen socket for "localhost"
+2024-09-19 09:30:01.173 +07 [26188] FATAL:  could not create any TCP/IP sockets
+2024-09-19 09:30:01.174 +07 [26188] LOG:  database system is shut down
+2024-09-19 09:30:30.740 +07 [24032] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 09:30:30.743 +07 [24032] LOG:  could not bind IPv6 address "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2024-09-19 09:30:30.743 +07 [24032] HINT:  Is another postmaster already running on port 5433? If not, wait a few seconds and retry.
+2024-09-19 09:30:30.743 +07 [24032] LOG:  could not bind IPv4 address "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2024-09-19 09:30:30.743 +07 [24032] HINT:  Is another postmaster already running on port 5433? If not, wait a few seconds and retry.
+2024-09-19 09:30:30.743 +07 [24032] WARNING:  could not create listen socket for "localhost"
+2024-09-19 09:30:30.743 +07 [24032] FATAL:  could not create any TCP/IP sockets
+2024-09-19 09:30:30.744 +07 [24032] LOG:  database system is shut down
+2024-09-19 09:31:08.965 +07 [13876] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 09:31:08.967 +07 [13876] LOG:  listening on IPv6 address "::1", port 5434
+2024-09-19 09:31:08.967 +07 [13876] LOG:  listening on IPv4 address "127.0.0.1", port 5434
+2024-09-19 09:31:09.054 +07 [23716] LOG:  database system was interrupted; last known up at 2024-09-19 09:26:09 +07
+2024-09-19 09:31:15.062 +07 [23716] LOG:  could not open file "./logfile_secondary": sharing violation
+2024-09-19 09:31:15.062 +07 [23716] DETAIL:  Continuing to retry for 30 seconds.
+2024-09-19 09:31:15.062 +07 [23716] HINT:  You might have antivirus, backup, or similar software interfering with the database system.
+2024-09-19 09:31:34.511 +07 [13876] LOG:  received fast shutdown request
+2024-09-19 09:31:42.112 +07 [23716] LOG:  syncing data directory (fsync), elapsed time: 33.05 s, current path: ./pg_commit_ts
+2024-09-19 09:31:42.121 +07 [23716] LOG:  entering standby mode
+2024-09-19 09:31:42.121 +07 [23716] LOG:  starting backup recovery with redo LSN 0/4000028, checkpoint LSN 0/4000060, on timeline ID 1
+2024-09-19 09:31:42.125 +07 [23716] LOG:  redo starts at 0/4000028
+2024-09-19 09:31:42.129 +07 [36140] LOG:  shutting down
+2024-09-19 09:31:42.133 +07 [13876] LOG:  database system is shut down
+2024-09-19 09:31:43.856 +07 [37648] LOG:  starting PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
+2024-09-19 09:31:43.858 +07 [37648] LOG:  listening on IPv6 address "::1", port 5434
+2024-09-19 09:31:43.858 +07 [37648] LOG:  listening on IPv4 address "127.0.0.1", port 5434
+2024-09-19 09:31:43.937 +07 [29784] LOG:  database system was shut down in recovery at 2024-09-19 09:31:42 +07
+2024-09-19 09:31:43.938 +07 [29784] LOG:  entering standby mode
+2024-09-19 09:31:43.938 +07 [29784] LOG:  restarting backup recovery with redo LSN 0/4000028
+2024-09-19 09:31:43.940 +07 [29784] LOG:  redo starts at 0/4000028
+2024-09-19 09:31:43.941 +07 [29784] LOG:  completed backup recovery with redo LSN 0/4000028 and end LSN 0/4000100
+2024-09-19 09:31:43.941 +07 [29784] LOG:  consistent recovery state reached at 0/4000100
+2024-09-19 09:31:43.941 +07 [37648] LOG:  database system is ready to accept read-only connections
+2024-09-19 09:31:44.020 +07 [14436] LOG:  started streaming WAL from primary at 0/5000000 on timeline 1
+2024-09-19 09:32:42.773 +07 [16388] FATAL:  database "Amalia Hajarani" does not exist
+2024-09-19 09:36:43.896 +07 [36396] LOG:  restartpoint starting: time
+2024-09-19 09:38:35.922 +07 [36396] LOG:  restartpoint complete: wrote 1027 buffers (6.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=111.570 s, sync=0.451 s, total=112.027 s; sync files=645, longest=0.002 s, average=0.001 s; distance=16384 kB, estimate=16384 kB; lsn=0/5000148, redo lsn=0/5000110
+2024-09-19 09:38:35.922 +07 [36396] LOG:  recovery restart point at 0/5000110
+2024-09-19 09:38:35.922 +07 [36396] DETAIL:  Last completed transaction was at log time 2024-09-19 09:37:29.274452+07.
+2024-09-19 09:43:28.416 +07 [36396] LOG:  restartpoint starting: time
+2024-09-19 09:44:26.247 +07 [21324] FATAL:  database "sso" does not exist
+2024-09-19 09:44:29.321 +07 [10212] FATAL:  database "sso" does not exist
+2024-09-19 09:45:16.715 +07 [36396] LOG:  restartpoint complete: wrote 986 buffers (6.0%); 1 WAL file(s) added, 0 removed, 0 recycled; write=107.801 s, sync=0.476 s, total=108.300 s; sync files=557, longest=0.007 s, average=0.001 s; distance=9314 kB, estimate=15677 kB; lsn=0/5918B08, redo lsn=0/5918AD0
+2024-09-19 09:45:16.715 +07 [36396] LOG:  recovery restart point at 0/5918AD0
+2024-09-19 09:45:16.715 +07 [36396] DETAIL:  Last completed transaction was at log time 2024-09-19 09:45:08.361166+07.
+2024-09-19 09:50:13.799 +07 [36396] LOG:  restartpoint starting: time
+2024-09-19 09:52:01.514 +07 [36396] LOG:  restartpoint complete: wrote 980 buffers (6.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=107.488 s, sync=0.220 s, total=107.715 s; sync files=256, longest=0.002 s, average=0.001 s; distance=4576 kB, estimate=14567 kB; lsn=0/5D90F28, redo lsn=0/5D90D78
+2024-09-19 09:52:01.514 +07 [36396] LOG:  recovery restart point at 0/5D90D78
+2024-09-19 09:52:01.514 +07 [36396] DETAIL:  Last completed transaction was at log time 2024-09-19 09:48:29.907476+07.
+2024-09-19 11:35:50.574 +07 [18668] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 11:35:52.151 +07 [28356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 11:38:31.696 +07 [36396] LOG:  restartpoint starting: time
+2024-09-19 11:38:32.068 +07 [36396] LOG:  restartpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.327 s, sync=0.034 s, total=0.400 s; sync files=2, longest=0.031 s, average=0.017 s; distance=10 kB, estimate=13111 kB; lsn=0/5D938A8, redo lsn=0/5D93870
+2024-09-19 11:38:32.068 +07 [36396] LOG:  recovery restart point at 0/5D93870
+2024-09-19 11:38:32.068 +07 [36396] DETAIL:  Last completed transaction was at log time 2024-09-19 09:48:29.907476+07.
+2024-09-19 13:08:45.634 +07 [14436] FATAL:  terminating walreceiver due to timeout
+2024-09-19 13:08:45.641 +07 [29784] LOG:  invalid record length at 0/5D93958: expected at least 24, got 0
+2024-09-19 13:08:45.841 +07 [26764] LOG:  started streaming WAL from primary at 0/5000000 on timeline 1
+2024-09-19 13:39:00.486 +07 [33720] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 13:39:00.487 +07 [39260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 13:39:00.504 +07 [35052] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 13:46:33.972 +07 [38808] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:04:01.557 +07 [10432] FATAL:  database "auth" does not exist
+2024-09-19 15:04:04.624 +07 [4680] FATAL:  database "auth" does not exist
+2024-09-19 15:04:44.024 +07 [39356] FATAL:  database "auth" does not exist
+2024-09-19 15:04:47.079 +07 [3912] FATAL:  database "auth" does not exist
+2024-09-19 15:07:31.044 +07 [38980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:08:56.841 +07 [37084] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:11:33.863 +07 [36396] LOG:  restartpoint starting: time
+2024-09-19 15:13:19.360 +07 [36396] LOG:  restartpoint complete: wrote 966 buffers (5.9%); 0 WAL file(s) added, 0 removed, 0 recycled; write=105.230 s, sync=0.261 s, total=105.498 s; sync files=303, longest=0.003 s, average=0.001 s; distance=4552 kB, estimate=12255 kB; lsn=0/62058D0, redo lsn=0/6205898
+2024-09-19 15:13:19.360 +07 [36396] LOG:  recovery restart point at 0/6205898
+2024-09-19 15:13:19.360 +07 [36396] DETAIL:  Last completed transaction was at log time 2024-09-19 15:07:12.486701+07.
+2024-09-19 15:16:09.305 +07 [38980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:16:10.920 +07 [30916] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:34:57.635 +07 [19224] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:38:25.561 +07 [17720] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:44:14.118 +07 [29700] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 15:44:49.300 +07 [36396] LOG:  restartpoint starting: time
+2024-09-19 15:44:53.768 +07 [36396] LOG:  restartpoint complete: wrote 41 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.429 s, sync=0.029 s, total=4.468 s; sync files=33, longest=0.002 s, average=0.001 s; distance=163 kB, estimate=11046 kB; lsn=0/622E530, redo lsn=0/622E4F8
+2024-09-19 15:44:53.768 +07 [36396] LOG:  recovery restart point at 0/622E4F8
+2024-09-19 15:44:53.768 +07 [36396] DETAIL:  Last completed transaction was at log time 2024-09-19 15:44:26.525047+07.
+2024-09-19 16:05:24.894 +07 [29040] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:05:32.470 +07 [21356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:05:34.317 +07 [22708] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:29:51.015 +07 [36396] LOG:  restartpoint starting: time
+2024-09-19 16:29:51.788 +07 [36396] LOG:  restartpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.760 s, sync=0.006 s, total=0.773 s; sync files=7, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=9941 kB; lsn=0/622E980, redo lsn=0/622E948
+2024-09-19 16:29:51.788 +07 [36396] LOG:  recovery restart point at 0/622E948
+2024-09-19 16:29:51.788 +07 [36396] DETAIL:  Last completed transaction was at log time 2024-09-19 16:27:59.180458+07.
+2024-09-19 16:30:44.909 +07 [13404] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:30:44.909 +07 [28508] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:30:44.911 +07 [21992] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:30:44.911 +07 [15132] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:30:44.911 +07 [31288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:30:44.912 +07 [29136] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 16:57:20.096 +07 [8620] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:24:52.706 +07 [28332] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:49:54.170 +07 [36396] LOG:  restartpoint starting: time
+2024-09-19 17:49:54.458 +07 [36396] LOG:  restartpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.214 s, sync=0.035 s, total=0.288 s; sync files=3, longest=0.031 s, average=0.012 s; distance=1 kB, estimate=8947 kB; lsn=0/622EDE8, redo lsn=0/622EDB0
+2024-09-19 17:49:54.458 +07 [36396] LOG:  recovery restart point at 0/622EDB0
+2024-09-19 17:49:54.458 +07 [36396] DETAIL:  Last completed transaction was at log time 2024-09-19 17:49:51.957111+07.
+2024-09-19 17:54:54.466 +07 [36396] LOG:  restartpoint starting: time
+2024-09-19 17:54:54.704 +07 [36396] LOG:  restartpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.226 s, sync=0.006 s, total=0.238 s; sync files=3, longest=0.003 s, average=0.002 s; distance=1 kB, estimate=8053 kB; lsn=0/622F318, redo lsn=0/622F2E0
+2024-09-19 17:54:54.704 +07 [36396] LOG:  recovery restart point at 0/622F2E0
+2024-09-19 17:54:54.704 +07 [36396] DETAIL:  Last completed transaction was at log time 2024-09-19 17:51:24.829736+07.
+2024-09-19 17:58:53.097 +07 [11408] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:58:53.097 +07 [39544] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:58:53.099 +07 [34356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:58:53.101 +07 [32948] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:59:02.849 +07 [26172] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

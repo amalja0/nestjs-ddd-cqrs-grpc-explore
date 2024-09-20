@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package user;
+
+import "../common/pagination.proto";
+import "user-model.proto";
+
+service UserService {
+  rpc FindOne(FindOneUserRequest) returns (PublicUserData) {}
+  rpc InsertOne(User) returns (PublicUserData) {}
+}

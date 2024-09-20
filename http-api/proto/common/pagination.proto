@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package common;
+
+message PaginationRequest {
+  uint32 page = 1;
+  uint32 limit = 2;
+}
+
+message PaginationResponse {
+  uint32 current_page = 1;
+  uint32 item_count = 2;
+  uint32 items_per_page = 3;
+  uint32 total_items = 4;
+  uint32 total_pages = 5;
+}
